@@ -1,12 +1,12 @@
 #REMOVE PASS AND FIX THE FUNCTION
 #change to test push and forks
 def sum_of_products(list1, list2):
-    #this function should do the math
-    pass
+    math_sum = list1 + list2
+    return math_sum
 
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
-    #read in the integers
-    #call sum_of_products (return a value)
-    #print the result
-    pass
+    integer1 = int(input())
+    integer2 = int(input())
+    result = sum_of_products(integer1, integer2)
+    print(result)
